@@ -4,6 +4,11 @@ const mybtn = document.getElementsByClassName("btn");
 
 
 function converter() {
+    if(document.getElementById("celcius").value==""){
+        alert("Type Something");
+
+    }
+
     t = document.getElementById("celcius").value;
     var x = parseInt(t)  * 9/5 + 32 
     var y = parseInt(t) + 273.15 
