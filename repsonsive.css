@@ -1,7 +1,15 @@
 @media  screen and (max-width:400px) {
+    
+    .my-grid{
+        height: 70vh;
+        border-radius: 10px;
+    }
+
     .inputs{
+        margin-top: 10%;
         width: 50vw;
         font-size: 15px;
+
     }
     .temp{
         width: 50vw;
